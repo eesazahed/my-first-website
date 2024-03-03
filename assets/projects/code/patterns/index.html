@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patterns App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="art-container">
+      <div class="art"></div>
+    </div>
+    <!-- buttons -->
+    <div class="buttons">
+      <!-- colors -->
+      <button id="red" onclick="createBlock('red');">Red</button>
+      <button id="orange" onclick="createBlock('orange');">Orange</button>
+      <button id="yellow" onclick="createBlock('yellow');">Yellow</button>
+      <button id="lime" onclick="createBlock('lime');">Lime</button>
+      <button id="green" onclick="createBlock('green');">Green</button>
+      <button id="cyan" onclick="createBlock('cyan');">Cyan</button>
+      <button id="blue" onclick="createBlock('royalBlue');">Blue</button>
+      <button id="darkblue" onclick="createBlock('darkblue');">
+        Dark Blue
+      </button>
+      <button id="indigo" onclick="createBlock('indigo');">Indigo</button>
+      <button id="purple" onclick="createBlock('#663399');">Purple</button>
+      <button id="magenta" onclick="createBlock('magenta');">Magenta</button>
+      <button id="pink" onclick="createBlock('pink');">Pink</button>
+      <button id="white" onclick="createBlock('snow');">White</button>
+      <button id="brown" onclick="createBlock('brown');">Brown</button>
+      <button id="grey" onclick="createBlock('grey');">Grey</button>
+      <button id="black" onclick="createBlock('black');">Black</button>
+      <!-- controls -->
+      <button onclick="removeBlock();">Undo</button>
+      <button onclick="clearBlocks();">Clear</button>
+      <button onclick="changeSize(5)">Small</button>
+      <button onclick="changeSize(7)">Medium</button>
+      <button onclick="changeSize(9)">Large</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

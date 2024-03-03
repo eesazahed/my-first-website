@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    font: 1em sans-serif;
+    background: whitesmoke;
+}
+#p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    border: 3px solid black;
+    padding: 1%;
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    background: white;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    border-radius: 50%;
+    background: sandybrown;
+    font-size: 3rem;
+    margin: 1%;
+    transition: 0.5s;
+}
+button:hover{
+    background: sienna;
+}
+
+.rps{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    justify-content: space-evenly;
+}
